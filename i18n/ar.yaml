@@ -1,0 +1,22 @@
+# Sections
+booking: "احجز شقتك"
+tourism: "استكشف مصر"
+rental: "أجِّر شقتك"
+renovation: "جدد شقتك"
+contact: "اتصل بنا"
+
+# contact us menu
+contact_header: معًا يمكننا تحقيق ما تريد
+whatsapp_desc: تحدث معنا برسائل واتساب
+facebook_desc: تعرف على أحدث المستجدات وما وراء الكواليس
+instagram_desc: الصورة تساوي ألف كلمة!
+youtube_desc: شاهد وتعلم واستمتع على قناتنا
+sendemail: "أرسل بريدًا إلكترونيًا"
+sendmail_desc: وسنرد عليك في أقرب وقت ممكن.
+call: "حادثنا عبر الهاتف"
+
+hb_breadcrumb_home:
+  other: "الرئيسية"
+
+featured_posts:
+  other: "آخر المستجدات"

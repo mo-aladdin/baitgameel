@@ -14,14 +14,6 @@ comments: false
 #  - 
 images:
  - "images/news/booking-optimization-service.png"
-# menu:
-#   main:
-#     weight: 100
-#     params:
-#       icon:
-#         vendor: bs
-#         name: book
-#         color: '#e24d0e'
 ---
 In our latest Facebook video, We explain what short-term rental is, and how you can leverage our services to get steady income in foreign currency from any vacant apartments you own.
 

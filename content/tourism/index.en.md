@@ -13,15 +13,6 @@ comments: false
 #  - 
 images:
 #  - 
-menu:
-  main:
-    weight: 20
-    params:
-      icon:
-        vendor: mdi
-        name: plane-car
-        width: 1.4em
-        height: 1.4em
 ---
 
 Content.

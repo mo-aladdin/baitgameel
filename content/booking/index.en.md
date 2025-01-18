@@ -11,4 +11,4 @@ images:
 #  - 
 ---
 
-Content. {{ T "booking" }}
+المحتوى.

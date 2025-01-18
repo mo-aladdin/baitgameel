@@ -1,11 +1,50 @@
 main:
   - identifier: booking
     weight: 10
-    pageRef: "/booking"
+    pageRef: "booking"
     params:
       icon:
         vendor: fas
         name: hotel
+
+  - identifier: tourism
+    weight: 20
+    pageRef: "tourism"
+    params:
+      icon:
+        vendor: mdi
+        name: plane-car
+        width: 1.4em
+        height: 1.4em
+
+  - identifier: rental
+    weight: 30
+    pageRef: "rental"
+    params:
+      icon:
+        # vendor: fas
+        # name: "money-check-dollar"
+        # vendor: fas
+        # name: "money-bill-trend-up"
+        # vendor: tabler
+        # name: "outline/report-money"
+        vendor: tabler
+        name: "outline/cash-register"
+        # name: "outline/home-dollar"
+        height: "1.4rem"
+        width: "1.4rem"
+
+  - identifier: renovation
+    weight: 40
+    pageRef: "renovation"
+    params:
+      icon:
+        # vendor: mdi
+        # name: home-flood
+        vendor: tabler
+        name: outline/home-eco
+        width: 1.4em
+        height: 1.4em
 
   - identifier: divider-main-contact
     weight: 900
@@ -14,9 +53,10 @@ main:
 
   - identifier: contact
     weight: 1000
-    pageRef: "/contact"
+    pageRef: "contact"
     params:
-      header: Let’s Connect and Make Things Happen!
+      header: contact_header
+      columns: 1
       icon:
         vendor: font-awesome-solid
         name: headset
@@ -31,7 +71,7 @@ main:
         vendor: fab
         name: whatsapp
         color: green
-      description: We're just a message away!
+      description: whatsapp_desc
 
   - identifier: facebook
     name: Facebook
@@ -43,7 +83,7 @@ main:
         vendor: fab
         name: facebook
         color: blue
-      description: Check our latest work and behind-the-scenes fun!
+      description: facebook_desc
 
   - identifier: instagram
     name: Instagram
@@ -55,7 +95,7 @@ main:
         vendor: fab
         name: instagram
         color: "#c03957"
-      description: A picture is worth a thousand words!
+      description: instagram_desc
 
   - identifier: youtube
     name: YouTube
@@ -67,7 +107,7 @@ main:
         vendor: fab
         name: youtube
         color: red
-      description: Watch, learn, and enjoy - subscribe now!
+      description: youtube_desc
 
   - identifier: divider-contact
     parent: contact
@@ -76,7 +116,6 @@ main:
       divider: true
 
   - identifier: sendemail
-    name: Send an Email
     parent: contact
     url: "mailto:h.h.egypt@baitgameel.com"
     weight: 60
@@ -85,10 +124,9 @@ main:
         vendor: mdi
         name: email-fast-outline
         # color: red
-      description: And we'll get back to you ASAP.
+      description: sendmail_desc
 
   - identifier: call
-    name: Call Now
     parent: contact
     url: "tell:+971-501896163"
     weight: 70

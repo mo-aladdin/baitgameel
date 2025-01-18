@@ -14,14 +14,6 @@ comments: false
 #  - 
 images:
  - "images/news/home-repair.jpg"
-# menu:
-#   main:
-#     weight: 100
-#     params:
-#       icon:
-#         vendor: bs
-#         name: book
-#         color: '#e24d0e'
 ---
 
 Dealing with handymen is a thing from the past! Our top-notch renovation team will handle all the tasks you will ever need with transparent prices and no effort on your part.

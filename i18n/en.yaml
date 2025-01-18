@@ -1,0 +1,22 @@
+# Sections
+booking: "Book Your Apartment"
+tourism: "Explore Egypt"
+rental: "Rent Your Apartment"
+renovation: "Home Renovation"
+contact: "Contact Us"
+
+# contact us menu
+contact_header: Let’s Connect and Make Things Happen!
+whatsapp_desc: We're just a message away!
+facebook_desc: Check our latest work and behind-the-scenes fun!
+instagram_desc: A picture is worth a thousand words!
+youtube_desc: Watch, learn, and enjoy - subscribe now!
+sendemail: "Send an Email"
+sendmail_desc: And we'll get back to you ASAP.
+call: "Call Now"
+
+hb_breadcrumb_home:
+  other: "Home"
+
+featured_posts:
+  other: "Latest News"
