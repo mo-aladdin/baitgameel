@@ -1,0 +1,100 @@
+main:
+  - identifier: booking
+    weight: 10
+    pageRef: "/booking"
+    params:
+      icon:
+        vendor: fas
+        name: hotel
+
+  - identifier: divider-main-contact
+    weight: 900
+    params:
+      divider: true
+
+  - identifier: contact
+    weight: 1000
+    pageRef: "/contact"
+    params:
+      header: Let’s Connect and Make Things Happen!
+      icon:
+        vendor: font-awesome-solid
+        name: headset
+
+  - identifier: whatsapp
+    name: WhatsApp
+    parent: contact
+    url: https://wa.link/uelcmg
+    weight: 10
+    params:
+      icon:
+        vendor: fab
+        name: whatsapp
+        color: green
+      description: We're just a message away!
+
+  - identifier: facebook
+    name: Facebook
+    parent: contact
+    url: https://www.facebook.com/bait.gameel/
+    weight: 20
+    params:
+      icon:
+        vendor: fab
+        name: facebook
+        color: blue
+      description: Check our latest work and behind-the-scenes fun!
+
+  - identifier: instagram
+    name: Instagram
+    parent: contact
+    url: https://www.instagram.com/bait.gameel
+    weight: 30
+    params:
+      icon:
+        vendor: fab
+        name: instagram
+        color: "#c03957"
+      description: A picture is worth a thousand words!
+
+  - identifier: youtube
+    name: YouTube
+    parent: contact
+    url: https://www.youtube.com/@bait.gameel
+    weight: 40
+    params:
+      icon:
+        vendor: fab
+        name: youtube
+        color: red
+      description: Watch, learn, and enjoy - subscribe now!
+
+  - identifier: divider-contact
+    parent: contact
+    weight: 50
+    params:
+      divider: true
+
+  - identifier: sendemail
+    name: Send an Email
+    parent: contact
+    url: "mailto:h.h.egypt@baitgameel.com"
+    weight: 60
+    params:
+      icon:
+        vendor: mdi
+        name: email-fast-outline
+        # color: red
+      description: And we'll get back to you ASAP.
+
+  - identifier: call
+    name: Call Now
+    parent: contact
+    url: "tell:+971-501896163"
+    weight: 70
+    params:
+      icon:
+        vendor: tabler
+        name: outline/phone-call
+        # color: red
+      description: +971-501896163

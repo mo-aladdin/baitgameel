@@ -1,0 +1,26 @@
+description: "اكتشف مصر برؤية جديدة مع إقامة سياحية فى شقق فاخرة بأسعار تنافسية ورحلات لا تنسى. لملاك العقارات، حقق أقصى استفادة من عقارك مع باقاتنا للإيجار السياحى المصممة خصيصًا لتناسب حالتك."
+
+
+hb:
+  header:
+    brand: "بيت جميل" # the brand name, leave it empty to use site's title.
+    banner:
+      title: |
+        نحو رؤية جديدة لاستكشاف مصر
+        { data-aos="fade-down" data-aos-delay="200" style="background: #33185ccc; padding: 1rem" }
+      description: |
+        مع أساليبنا المبتكرة في توفير خدمات الإيجار السياحى، بيت جميل هو بوابتك لاستكشاف مصر برفاهية. نفتخر بتوفيرنا تجربة لا تُنسى لضيوفنا وفرص ربح غير مسبوقة لأصحاب العقارات الفاخرة.
+        { data-aos="fade-up" data-aos-delay="300" style="background: #33185ccc; padding: 1rem" }
+
+  blog:
+    sidebar:
+      profile:
+        title: بيت جميل
+        # description: Profile description other than site description.
+        # company: "بيت جميل"
+        # location: دبى
+
+# PWA settings, see https://hugomods.com/en/docs/pwa/#site-parameters.
+pwa:
+  manifest:
+    short_name: 'بيت جميل'

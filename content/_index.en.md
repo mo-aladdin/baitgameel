@@ -1,5 +1,4 @@
 ---
-title: "Bait Gameel | Unlock Egypt: Stunning Stays, Memorable Journeys"
 # menu:
 #   main:
 #     name: Home

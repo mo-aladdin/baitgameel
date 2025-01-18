@@ -2,25 +2,12 @@ en:
   languageName: English
   languageCode: en
   weight: 1
-  title: "Bait Gameel"
-  params:
-    head:
-      tagline: "Unlock Egypt: Stunning Stays, Memorable Journeys"
-    social:
-      title: "Follow Us"
-      caption: "Follow us on socialmedia to get the latest offers!"
-    footer: {}
+  title: "Bait Gameel | Unlock Egypt: Stunning Stays, Memorable Journeys"
 
 ar:
+  disabled: false
   languageName: العربية
   languageCode: ar
   weight: 2
-  title: "بيت جميل"
+  title: "بيت جميل | مصر برؤية جديدة: إقامة فاخرة وتجارب لا تنسى"
   languageDirection: rtl
-  params:
-    head:
-      tagline: "مصر برؤية جديدة: إقامة فاخرة وتجارب لا تنسى"
-    social:
-      title: "تابعنا"
-      caption: "اشترك لتواكب أحدث العروض والفرص أولاً بأول"
-    footer: {}

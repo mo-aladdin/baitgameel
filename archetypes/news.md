@@ -3,9 +3,10 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 description: "{{ replace .Name "-" " " | title }}"
 noindex: false
-featured: false
+featured: true
 pinned: false
 comments: false
+type: news
 # series:
 #  - 
 # categories:
