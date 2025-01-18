@@ -13,7 +13,7 @@ comments: false
 # tags:
 #  - 
 images:
- - "images/news/booking-optimization-service.png"
+ - "images/news/booking-optimization-service.webp"
 ---
 In our latest Facebook video, We explain what short-term rental is, and how you can leverage our services to get steady income in foreign currency from any vacant apartments you own.
 

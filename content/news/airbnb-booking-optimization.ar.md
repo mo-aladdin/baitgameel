@@ -13,7 +13,7 @@ comments: false
 # tags:
 #  - 
 images:
- - "images/news/booking-optimization-service.png"
+ - "images/news/booking-optimization-service.webp"
 ---
 في أحدث فيديو لنا على فيسبوك، نشرح ما هو الإيجار قصير المدى، وكيف يمكنك الاستفادة من خدماتنا للحصول على دخل ثابت بالعملة الأجنبية من أي شقق فارغة تمتلكها.
 

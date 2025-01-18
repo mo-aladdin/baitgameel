@@ -13,7 +13,7 @@ comments: false
 # tags:
 #  - 
 images:
- - "images/news/home-repair.jpg"
+ - "images/news/home-repair.webp"
 ---
 
 التعامل مع العمال المهرة أصبح من الماضي! فريقنا المميز في تجديد المنازل سيتولى جميع المهام التي قد تحتاجها بأسعار شفافة ودون أي مجهود من جانبك.

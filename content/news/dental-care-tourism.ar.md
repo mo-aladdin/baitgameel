@@ -13,7 +13,7 @@ comments: false
 # tags:
 #  - 
 images:
- - "images/news/dental-care-tourism.jpg"
+ - "images/news/dental-care-tourism.webp"
 ---
 
 نقدم لكم *برنامجنا الجديد* للسياحة العلاجية للعناية بالأسنان—علاج عالمي المستوى على يد أفضل أطباء الأسنان المصريين بأسعار لا تقارن!

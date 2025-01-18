@@ -13,7 +13,7 @@ comments: false
 # tags:
 #  - 
 images:
- - "images/news/dental-care-tourism.jpg"
+ - "images/news/dental-care-tourism.webp"
 ---
 
 Introducing our *new* medical tourism dental care program—world-class treatment by top-tier Egyptian dentists at unbeatable prices!

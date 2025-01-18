@@ -13,7 +13,7 @@ comments: false
 # tags:
 #  - 
 images:
- - "images/news/home-repair.jpg"
+ - "images/news/home-repair.webp"
 ---
 
 Dealing with handymen is a thing from the past! Our top-notch renovation team will handle all the tasks you will ever need with transparent prices and no effort on your part.
