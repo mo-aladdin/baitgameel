@@ -1,11 +1,11 @@
 <div class="row my-4">
   {{ $reverse := .Get "reverse" }}
-  <div class="col-md-6 col-sm-12  {{ cond $reverse `order-2` `` }}">{{ .Inner }}</div>
+  <div class="col-md-6 col-sm-12  {{ cond $reverse `order-2` `` }}" data-aos="flip-down">{{ .Inner }}</div>
   <!-- 
     ratio: embed video aspect ratio [ embed-responsive-21by9, embed-responsive-16by9, embed-responsive-4by3, embed-responsive-1by1 ]
     id: Youtube video ID
   -->
-  <div class='embed-responsive {{ .Get "ratio" }} col-md-6 col-sm-12 {{ cond $reverse `order-1 justify-content-start` `justify-content-end` }}'>
+  <div class='embed-responsive {{ .Get "ratio" }} col-md-6 col-sm-12 {{ cond $reverse `order-1 justify-content-start` `justify-content-end` }}' data-aos="flip-up">
     <iframe
       width="560"
       height="315"
