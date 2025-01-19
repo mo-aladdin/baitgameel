@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col-md-8 col-sm-12 order-md-1 order-sm-2">{{ .Inner }}</div>
+  <!-- 
+    ratio: embed video aspect ratio [ embed-responsive-21by9, embed-responsive-16by9, embed-responsive-4by3, embed-responsive-1by1 ]
+    id: Youtube video ID
+  -->
+  <div class='embed-responsive {{ .Get "ratio" }} col-md-4 col-sm-12 order-md-2 order-sm-1'>
+    <iframe
+      width="560"
+      height="315"
+      class="embed-responsive-item"
+      src='https://www.youtube.com/embed/{{ .Get "id" }}'
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+  </div>
+</div>

@@ -1,0 +1,27 @@
+<div class="row my-4">
+  {{ $reverse := .Get "reverse" }}
+  {{ $width := default (.Get "width") "450px" }}
+  {{ $height := default (.Get "height") "300px" }}
+  <div class="col-md-6 col-sm-12 mb-2 {{ cond $reverse `order-2` `` }}">{{ .Inner }}</div>
+  <div class="col-md-6 col-sm-12 d-flex {{ cond $reverse `order-1 justify-content-start` `justify-content-end` }} hi">
+    <div class="carousel slide" data-bs-ride="carousel" style="width: {{ $width }}">
+      <div class="carousel-inner">
+        {{ range $i, $img := $.Page.Resources.Match (.Get "path") }}
+            <div class="carousel-item {{ cond (eq (string $i) (or ($.Get `idx`) `0`)) `active` ``}}"  style="max-height: {{ $height }};">
+              {{ with $img }}
+                <img src="{{ .RelPermalink }}"  width="{{ $width }}" height="{{ $height }}" class="d-block w-100" alt="..." />
+              {{ end }}
+            </div>
+        {{ end }}
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</div>
