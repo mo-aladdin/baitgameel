@@ -17,6 +17,16 @@ main:
         width: 1.4em
         height: 1.4em
 
+  - identifier: medical
+    weight: 20
+    pageRef: "medical"
+    params:
+      icon:
+        vendor: mdi
+        name: doctor
+        width: 1.4em
+        height: 1.4em
+
   - identifier: rental
     weight: 30
     pageRef: "rental"
