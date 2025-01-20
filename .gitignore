@@ -128,6 +128,15 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Hugo
 public/
 resources/_gen/
 hugo_stats.json
+.hugo_build.lock
+
+## Dynamic data
+assets/generated
+data/generated
+src/generated
+.rsp.json
