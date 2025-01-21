@@ -1,0 +1,57 @@
+[all]
+other = "كل النتائج"
+
+[cancel]
+other = "إلغاء"
+
+[expand]
+other = "أظهِر التفاصيل"
+
+[index_fails]
+other = "تعذر تحميل الفهرس"
+
+[input_placeholder]
+other = "ماذا تريد أن تبحث عن؟"
+
+[reset]
+other = "مسح"
+
+[search_stat]
+one = "تم إيجاد {total} نتيجة خلال {time}."
+other = "تم إيجاد {total} نتائج خلال {time}."
+
+[sort_by_default]
+other = "الأدق"
+
+[sort_by_date_asc]
+other = "الأقدم"
+
+[sort_by_date_desc]
+other = "الأحدث"
+
+[taxonomy_authors]
+other = "الكاتب"
+
+[taxonomy_categories]
+other = "القسم"
+
+[taxonomy_series]
+other = "السلسلة"
+
+[taxonomy_tags]
+other = "hg,s,l"
+
+[to_close]
+other = "للإغلاق"
+
+[to_navigate]
+other = "للتنقل بين النتائج"
+
+[to_search]
+other = "للبحث"
+
+[to_select]
+other = "لاختيار نتيجة"
+
+[years]
+other = "السنوات"

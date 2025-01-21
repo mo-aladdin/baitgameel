@@ -45,7 +45,7 @@ imports:
   - path: github.com/hbstack/blog/modules/toc-scrollspy
 
   # blog content panel
-  - path: github.com/hbstack/blog/modules/content-panel
+  # - path: github.com/hbstack/blog/modules/content-panel
 
   # blog social share buttons
   - path: github.com/hbstack/blog/modules/social-share-buttons
@@ -59,7 +59,7 @@ imports:
   - path: github.com/hbstack/docs/modules/toc-scrollspy
 
   # docs content panel
-  - path: github.com/hbstack/docs/modules/content-panel
+  # - path: github.com/hbstack/docs/modules/content-panel
 
   # docs social share buttons
   - path: github.com/hbstack/docs/modules/social-share-buttons

@@ -1,12 +1,12 @@
 en:
-  languageName: English
+  languageName: "🇬🇧 English"
   languageCode: en
   weight: 1
   title: "Bait Gameel | Unlock Egypt: Stunning Stays, Memorable Journeys"
 
 ar:
   disabled: false
-  languageName: العربية
+  languageName: "🇪🇬 العربية"
   languageCode: ar
   weight: 2
   title: "بيت جميل | مصر برؤية جديدة: إقامة فاخرة وتجارب لا تنسى"

@@ -4,6 +4,6 @@
   {{ $height := default (.Get "height") "300px" }}
   <div class="col-md-6 col-sm-12 mb-2 {{ cond $reverse `order-2` `` }}" data-aos="flip-down">{{ .Inner }}</div>
   <div class="col-md-6 col-sm-12 d-flex {{ cond $reverse `order-1 justify-content-start` `justify-content-end` }}" data-aos="flip-up">
-    <img src="{{ .Get `path` }}"  width="{{ $width }}" height="{{ $height }}" class="d-block" alt="..." />
+    <img src="{{ .Get `path` }}"  width="{{ $width }}" height="{{ $height }}" loading="lazy" class="d-block" alt="..." />
   </div>
 </div>

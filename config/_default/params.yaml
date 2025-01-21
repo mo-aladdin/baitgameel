@@ -79,10 +79,6 @@ hb:
         # - docs
         - blog
         - news
-    giscus:
-      repo: hbstack/theme-cards
-      repo_id: R_kgDOK1LmSQ
-      category_id: DIC_kwDOK1LmSc4CbdiM
   docs:
     giscus:
       repo: hbstack/theme-cards
@@ -94,12 +90,12 @@ hb:
         - twitter
         - facebook
         - linkedin
-  content_panel:
-    repo:
-      service: github # github or gitlab.
-      repo: hbstack/theme-cards
-      branch: main
-      subpath: exampleSite
+  # content_panel:
+  #   repo:
+  #     service: github # github or gitlab.
+  #     repo: mo-aladdin/baitgameel
+  #     branch: main
+  #     # subpath: exampleSite
   # gallery:
   #   thumbnail_size: "x640"
   # google_fonts:
@@ -121,7 +117,10 @@ search:
   stall_threshold: 300
   min_match_char_length: 2
   case_sensitive: false
-  # shortcut_search: ["/"]
+  index_taxonomies: false
+  filter_taxonomies: false
+  filter_years: false
+  shortcut_search: []
 
 mermaid:
   # replace it with other CDNs or self-hosted URLs.

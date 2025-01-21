@@ -22,10 +22,15 @@ main:
     pageRef: "medical"
     params:
       icon:
-        vendor: mdi
-        name: doctor
-        width: 1.4em
-        height: 1.4em
+        vendor: bootstrap
+        name: heart-pulse-fill
+        width: 1.3em
+        height: 1.3em
+
+  - identifier: divider-main-owner
+    weight: 25
+    params:
+      divider: true
 
   - identifier: rental
     weight: 30

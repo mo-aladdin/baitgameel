@@ -9,7 +9,7 @@
         {{ range $i, $img := $.Page.Resources.Match (.Get "path") }}
             <div class="carousel-item {{ cond (eq (string $i) (or ($.Get `idx`) `0`)) `active` ``}}"  style="max-height: {{ $height }};">
               {{ with $img }}
-                <img src="{{ .RelPermalink }}"  width="{{ $width }}" height="{{ $height }}" class="d-block w-100" alt="..." />
+                <img src="{{ .RelPermalink }}"  width="{{ $width }}" height="{{ $height }}" class="d-block w-100" loading="lazy" alt="..." />
               {{ end }}
             </div>
         {{ end }}
