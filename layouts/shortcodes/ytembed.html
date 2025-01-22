@@ -1,0 +1,15 @@
+  {{ $short := default false (.Get "short") }}
+<div class='embed-responsive'>
+    <iframe
+        width="{{ cond $short `235` `560` }}"
+        height="{{ cond $short `420` `315` }}"
+        class="embed-responsive-item"
+        src='https://www.youtube.com/embed/{{ .Get "id" }}'
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+        loading="lazy"
+    ></iframe>
+</div>
