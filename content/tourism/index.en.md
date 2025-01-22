@@ -60,12 +60,12 @@ Whether you’re a fan of music, dance, or history, We promise you a magical exp
 {{< carousel_paragraph path="images/medical/*.webp" width="300px" height="300px">}}
 <h3 class="mb-1">Combine Pleasure with Self-Care</h3>
 Pamper yourself while exploring Egypt! Our medical tourism services offer world-class hair transplants and full dental care packages, so you can combine sightseeing with self-care in a truly unique experience.
-Our exclusive partnership with the Arab-World renowned <a href="https://www.changemeclinic.net/" target="_blank">Change Me Clinic</a> Guarantees a seamless experience and world-class doctors, all at your finger tips. <br/>
+<p>Our exclusive partnership with the Arab-World renowned <a href="https://www.changemeclinic.net/" target="_blank">Change Me Clinic</a> Guarantees a seamless experience and world-class doctors, all at your finger tips. </p>
 <a class="btn btn-sm btn-outline-primary mt-2" href="/medical">Read more...</a>
 {{< /carousel_paragraph >}}
 
 {{< carousel_paragraph path="images/stay/*.webp" reverse=true >}}
 <h3 class="mb-1">Affordable yet Luxurious Stays</h3>
-Why choose between luxury and exploration when you can have both? Combine our sightseeing tours with a luxurious stay in one of our vacation rentals. It’s the perfect way to experience Egypt in comfort and style. <br/>
+<p>Why choose between luxury and exploration when you can have both? Combine our sightseeing tours with a luxurious stay in one of our vacation rentals. It’s the perfect way to experience Egypt in comfort and style. </p>
 <a class="btn btn-sm btn-outline-primary mt-2" href="/booking" target="_blank">Check available apartments</a>
 {{< /carousel_paragraph >}}
