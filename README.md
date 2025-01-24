@@ -1,12 +1,12 @@
 # baitgameel
-Repository for baitgameel.com website. Based on [Hugo Cards Theme][https://github.com/hbstack/theme-cards]
+Repository for baitgameel.com website. Based on [Hugo Cards Theme](https://github.com/hbstack/theme-cards)
 
 # Requirements
 - Hugo Extended
 - Go Programming Language
 - Node.js 16+ (18+ for Yarn 2 support)
 
-# Installation (Linux Debian)
+# Installation (Linux, Debian-Based)
 ## Go Programming Language
 Go installation is required to download and upgrade Hugo Modules.
 1. Downlod [Go installation package](https://go.dev/dl/) for your system
