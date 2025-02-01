@@ -3,7 +3,9 @@
   "description": "The cards theme of [HB Framework](https://hbstack.dev/).",
   "scripts": {
     "dev": "hugo server --gc -D",
-    "prod": "hugo server --gc --disableFastRender --renderToDisk --minify -e production -p 1314"
+    "note": "using `-e production` triggers purgecss which also removes the css used in JS-generated elements :(",
+    "prod": "hugo server --gc --disableFastRender --minify -p 1314",
+    "build": "hugo build --gc --cleanDestinationDir --minify"
   },
   "repository": {
     "type": "git",

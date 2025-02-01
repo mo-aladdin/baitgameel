@@ -181,35 +181,35 @@ export class UnitTable {
             const dataHtml = `
                 <div class="col-md-3 col-sm-12">
                     <h4>${data.type}</h4>
-<dl>
-  <dt><i class="fa-solid fa-map-location-dot"></i> ${i18n.Region}</dt>
-  <dd>${data.area}</dd>
-  <div class="d-flex justify-content-between">
-    <div><i class="fa-solid fa-archway"></i> <spn class="fw-bold">${i18n.Rooms}</spn></div>
-    <span class="badge text-bg-dark">${data.rooms}</span>
-  </div>
-  <div class="d-flex justify-content-between my-2">
-    <div><i class="fa-solid fa-bath"></i> <spn class="fw-bold">${i18n.Bathrooms}</spn></div>
-    <span class="badge text-bg-dark">${data.bathrooms}</span>
-  </div>
-  <div class="d-flex justify-content-between my-2">
-    <div>
-      <i class="fa-solid fa-stairs"></i>
-      <spn class="fw-bold"> ${i18n.Floor}</spn>
-      ${data.floor == 0 ? i18n.groundFloor : data.floor}
-    </div>
-    <div>
-      <span>
-          ${data.elevator ? `<span><i class="fa-solid fa-elevator text-success"></i> ${i18n.Elevator}</span>` : ''}
-      </span>
-    </div>
-  </div>
-  <div class="d-flex justify-content-between my-2">
-    <div>
-      ${ data.internet ? `<span class="text-success"><i class="fa-solid fa-wifi"></i></span> ${i18n.Internet}` : '' }
-    </div>
-  </div>
-</dl>
+                      <dl>
+                        <dt><i class="fa-solid fa-map-location-dot"></i> ${i18n.Region}</dt>
+                        <dd>${data.area}</dd>
+                        <div class="d-flex justify-content-between">
+                          <div><i class="fa-solid fa-archway"></i> <spn class="fw-bold">${i18n.Rooms}</spn></div>
+                          <span class="badge text-bg-dark">${data.rooms}</span>
+                        </div>
+                        <div class="d-flex justify-content-between my-2">
+                          <div><i class="fa-solid fa-bath"></i> <spn class="fw-bold">${i18n.Bathrooms}</spn></div>
+                          <span class="badge text-bg-dark">${data.bathrooms}</span>
+                        </div>
+                        <div class="d-flex justify-content-between my-2">
+                          <div>
+                            <i class="fa-solid fa-stairs"></i>
+                            <spn class="fw-bold"> ${i18n.Floor}</spn>
+                            ${data.floor == 0 ? i18n.groundFloor : data.floor}
+                          </div>
+                          <div>
+                            <span>
+                                ${data.elevator ? `<span><i class="fa-solid fa-elevator text-success"></i> ${i18n.Elevator}</span>` : ''}
+                            </span>
+                          </div>
+                        </div>
+                        <div class="d-flex justify-content-between my-2">
+                          <div>
+                            ${ data.internet ? `<span class="text-success"><i class="fa-solid fa-wifi"></i></span> ${i18n.Internet}` : '' }
+                          </div>
+                        </div>
+                      </dl>
 
                 </div>`;
             const dataEle = htmlToElement(dataHtml);
