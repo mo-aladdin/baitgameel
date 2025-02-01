@@ -285,6 +285,9 @@ export class UnitTable {
           },
         ],
       });
+      // clear filter event
+      const clearFilter = document.getElementById("filter-clear");
+      clearFilter.addEventListener("click", () => {unitTable.clearFilter(true)})
     }).catch((error) => {
       this.container.innerHTML = `
       <div class="alert alert-danger d-flex align-items-center" role="alert">
