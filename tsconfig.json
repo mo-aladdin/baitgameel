@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        // "sourceMap": true,
+        "inlineSourceMap": true, // this is the only way I can get FF to display source variable names, Leet dev right here!
+        "inlineSources": true,
+        "strict": true,
+        "noImplicitReturns": true,
+        "noImplicitAny": true,
+        "target": "ES2017",
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "baseUrl": ".", // Set root directory as base
+        "lib": [
+            "ES2017",
+            "DOM"
+        ],
+        "paths": {
+        }
+    },
+    "include": [
+    ],
+    "exclude": [
+    ]
+}

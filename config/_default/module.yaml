@@ -42,7 +42,7 @@ imports:
   # - path: github.com/hbstack/blog/modules/utterances
 
   # blog table of contents scrollspy
-  - path: github.com/hbstack/blog/modules/toc-scrollspy
+  # - path: github.com/hbstack/blog/modules/toc-scrollspy
 
   # blog content panel
   # - path: github.com/hbstack/blog/modules/content-panel
@@ -74,7 +74,7 @@ imports:
   # to remove unused modules, you need to replace the recommended module with modules your need.
   # see also https://hbstack.dev/en/2023/10/replace-meta-modules/.
   - path: github.com/hbstack/back-to-top
-  - path: github.com/hbstack/bigger-picture
+  # - path: github.com/hbstack/bigger-picture
   - path: github.com/hbstack/code-block-panel
   - path: github.com/hbstack/docs/modules/breadcrumb
   - path: github.com/hbstack/docs/modules/featured-image

@@ -1,7 +1,7 @@
 <div class="row my-4">
   {{ $carouselId := delimit (shuffle (split (md5 now.UnixNano) `` )) `` }}
   {{ $reverse := .Get "reverse" }}
-  {{ $width := default "auto" }} <!-- (.Get "width") -->
+  {{ $width := default "100%" }} <!-- (.Get "width") -->
   {{ $height := default "auto" }} <!-- (.Get "height") -->
   <div class="col-md-6 col-sm-12 mb-2 {{ cond $reverse `order-2` `` }}" data-aos="flip-down">{{ .Inner }}</div>
   <div class="col-md-6 col-sm-12 d-flex {{ cond $reverse `order-1 justify-content-start` `justify-content-end` }} hi" data-aos="flip-up">
@@ -10,7 +10,7 @@
         {{ range $i, $img := $.Page.Resources.Match (.Get "path") }}
             <div class="carousel-item {{ cond (eq (string $i) (or ($.Get `idx`) `0`)) `active` ``}}"  style="max-height: {{ $height }};">
               {{ with $img }}
-                <img src="{{ .RelPermalink }}"  width="{{ $width }}" height="{{ $height }}" class="d-block w-100" loading="lazy" alt="..." />
+                <img src="{{ .RelPermalink }}"  width="{{ $width }}" height="{{ $height }}" style=" object-fit: contain;" class="d-block lazyloaded" loading="lazy" alt="..." />
               {{ end }}
             </div>
         {{ end }}
