@@ -20,7 +20,22 @@ hb:
       style: "dropdown" # switch or dropdown
 
     banner:
-      img: "/images/banners/home.webp"
+      img:
+        - media: "(max-width: 375px)"
+          src: "/images/banners/home-375.webp"
+        - media: "(max-width: 576px)"
+          src: "/images/banners/home-576.webp"
+        - media: "(max-width: 768px)"
+          src: "/images/banners/home-768.webp"
+        - media: "(max-width: 1024px)"
+          src: "/images/banners/home-1024.webp"
+        - media: "(max-width: 1280px)"
+          src: "/images/banners/home-1280.webp"
+        - media: "(max-width: 1536px)"
+          src: "/images/banners/home-1400.webp"
+        - media: "(max-width: 1920px)"
+          src: "/images/banners/home-1800.webp"
+        - src: "/images/banners/home-1400.webp"  # Fallback image without media query
       transparentize_navbar_bg : false
       alignment: "start"
       color: "#fff"
